@@ -18,16 +18,20 @@ Inspired by [Repl.it](https://repl.it/@remarkablemark/Swap-array-row-and-column)
 
 ```js
 const { transpose } = require('matrix-transpose');
+
 transpose([
   [1, 2],
   [3, 4],
+  [5, 6],
 ]);
 ```
 
+Output:
+
 ```json
 [
-  [1, 3],
-  [2, 4]
+  [1, 3, 5],
+  [2, 4, 6]
 ]
 ```
 
@@ -103,9 +107,9 @@ Output:
 ]
 ```
 
-## Options
+### Options
 
-### excludeEmpty
+#### excludeEmpty
 
 When option `excludeEmpty` is set to `true`, then empty array items are excluded:
 
