@@ -1,6 +1,6 @@
 {
   "name": "matrix-transpose",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "Transposes a matrix by switching the row and column indices of an associative array.",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "cjs/index.js",
