@@ -12,7 +12,7 @@
 transpose(array)
 ```
 
-Inspired by [Repl.it](https://repl.it/@remarkablemark/Swap-array-row-and-column).
+In other words, it flips a matrix over its diagonal. Inspired by the [Repl.it](https://repl.it/@remarkablemark/Swap-array-row-and-column).
 
 #### Example
 
@@ -91,7 +91,7 @@ Output:
 ]
 ```
 
-Transpose matrix with empty items:
+Transpose matrix with inconsistent column lengths:
 
 ```js
 transpose([[1], [2, 3], [4, 5, 6]]);
@@ -111,7 +111,7 @@ Output:
 
 #### excludeEmpty
 
-When option `excludeEmpty` is set to `true`, then empty array items are excluded:
+When option `excludeEmpty` is set to `true`, then empty items are excluded:
 
 ```js
 transpose([[1], [2, 3], [4, 5, 6]], { excludeEmpty: true });
