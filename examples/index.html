@@ -1,0 +1,16 @@
+<textarea cols="50" rows="5">[[1, 2], [3, 4]]</textarea>
+<pre><code></code></pre>
+
+<script src="../umd/matrix-transpose.min.js"></script>
+<script>
+  var transpose = window.MatrixTranspose.transpose;
+  var textarea = document.querySelector('textarea');
+  var code = document.querySelector('code');
+
+  textarea.addEventListener('input', render);
+  render({ target: textarea });
+  function render(event) {
+    var matrix = JSON.parse(event.target.value);
+    code.innerText = JSON.stringify(transpose(matrix), null, 2);
+  }
+</script>
