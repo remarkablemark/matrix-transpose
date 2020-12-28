@@ -6,7 +6,7 @@
 [![Build Status](https://github.com/remarkablemark/matrix-transpose/workflows/build/badge.svg?branch=master)](https://github.com/remarkablemark/matrix-transpose/actions?query=workflow%3Abuild)
 [![Coverage Status](https://coveralls.io/repos/github/remarkablemark/matrix-transpose/badge.svg?branch=master)](https://coveralls.io/github/remarkablemark/matrix-transpose?branch=master)
 
-[Transposes](https://wikipedia.org/wiki/Transpose) a matrix by switching the row and column indices of an associative array:
+[Transposes](https://wikipedia.org/wiki/Transpose) a matrix by switching the row and column indices of a multidimensional array:
 
 ```
 transpose(array)

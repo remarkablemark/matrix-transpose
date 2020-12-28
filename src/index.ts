@@ -5,7 +5,7 @@ interface Options {
 }
 
 /**
- * Tranposes a matrix by switching the row and column indices of an associative array.
+ * Tranposes a matrix by switching the row and column indices of a multidimensional array.
  */
 export function transpose(matrix: Matrix, options: Options = {}): Matrix {
   const rowsCount = matrix.length;
