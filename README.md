@@ -31,7 +31,7 @@ transpose([
 ]
 ```
 
-[Repl.it](https://repl.it/@remarkablemark/matrix-transpose) | [JSFiddle]()
+[Repl.it](https://repl.it/@remarkablemark/matrix-transpose) | [JSFiddle](https://jsfiddle.net/remarkablemark/c5upm1bz/)
 
 ## Install
 
