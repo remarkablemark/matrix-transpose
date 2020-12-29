@@ -10,6 +10,7 @@ interface Options {
 export function transpose(matrix: Matrix, options: Options = {}): Matrix {
   const rowsCount = matrix.length;
   const output: Matrix = [];
+  const { excludeEmpty } = options;
 
   for (let r = 0; r < rowsCount; r++) {
     const row = matrix[r];
@@ -18,7 +19,7 @@ export function transpose(matrix: Matrix, options: Options = {}): Matrix {
     for (let c = 0; c < columnsCount; c++) {
       const item = row[c];
       output[c] = output[c] || [];
-      if (options.excludeEmpty) {
+      if (excludeEmpty) {
         output[c].push(item);
       } else {
         output[c][r] = item;
