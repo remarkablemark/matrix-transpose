@@ -35,20 +35,20 @@ Output:
 ]
 ```
 
-[Repl.it](https://repl.it/@remarkablemark/matrix-transpose) | [JSFiddle](https://jsfiddle.net/remarkablemark/c5upm1bz/)
+[Replit](https://replit.com/@remarkablemark/matrix-transpose) | [JSFiddle](https://jsfiddle.net/remarkablemark/c5upm1bz/)
 
 ## Install
 
 [NPM](https://www.npmjs.com/package/matrix-transpose):
 
 ```sh
-$ npm install matrix-transpose --save
+npm install matrix-transpose --save
 ```
 
 [Yarn](https://yarnpkg.com/package/matrix-transpose):
 
 ```sh
-$ yarn add matrix-transpose
+yarn add matrix-transpose
 ```
 
 [CDN](https://unpkg.com/matrix-transpose/):
@@ -128,25 +128,25 @@ Output:
 Run tests with coverage:
 
 ```sh
-$ npm test
+npm test
 ```
 
 Run tests in watch mode:
 
 ```sh
-$ npm run test:watch
+npm run test:watch
 ```
 
 Lint files:
 
 ```sh
-$ npm run lint
+npm run lint
 ```
 
 Fix lint errors:
 
 ```sh
-$ npm run lint:fix
+npm run lint:fix
 ```
 
 ## Release
@@ -154,8 +154,8 @@ $ npm run lint:fix
 Only collaborators with credentials can release and publish:
 
 ```sh
-$ npm run release
-$ git push --follow-tags && npm publish
+npm run release
+git push --follow-tags && npm publish
 ```
 
 ## License
