@@ -12,7 +12,7 @@
 transpose(array)
 ```
 
-In other words, it flips a matrix over its diagonal. Inspired by the [Repl.it](https://repl.it/@remarkablemark/Swap-array-row-and-column).
+In other words, it flips a matrix over its diagonal. Inspired by the [Replit](https://replit.com/@remarkablemark/Swap-array-row-and-column).
 
 #### Example
 
@@ -151,12 +151,7 @@ npm run lint:fix
 
 ## Release
 
-Only collaborators with credentials can release and publish:
-
-```sh
-npm run release
-git push --follow-tags && npm publish
-```
+Release and publish are automated by [Release Please](https://github.com/googleapis/release-please).
 
 ## License
 
