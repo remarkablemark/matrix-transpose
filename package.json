@@ -36,7 +36,7 @@
     "column"
   ],
   "devDependencies": {
-    "@commitlint/cli": "19.0.3",
+    "@commitlint/cli": "19.1.0",
     "@commitlint/config-conventional": "19.0.3",
     "@rollup/plugin-typescript": "11.1.6",
     "@size-limit/preset-small-lib": "11.0.2",
