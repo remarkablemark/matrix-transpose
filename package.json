@@ -54,7 +54,7 @@
     "prettier": "3.5.3",
     "rollup": "4.43.0",
     "size-limit": "11.2.0",
-    "ts-jest": "29.3.4",
+    "ts-jest": "29.4.0",
     "typescript": "5.8.3"
   },
   "files": [
