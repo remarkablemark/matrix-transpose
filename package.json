@@ -52,7 +52,7 @@
     "jest": "29.7.0",
     "lint-staged": "16.1.6",
     "prettier": "3.6.2",
-    "rollup": "4.50.2",
+    "rollup": "4.51.0",
     "size-limit": "11.2.0",
     "ts-jest": "29.4.3",
     "typescript": "5.9.2"
